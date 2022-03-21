@@ -1,0 +1,149 @@
+body{
+height: 900px;
+background: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar-main{
+    justify-content: flex-end;
+    width: 100%;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+.navbar-nav{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.projects{
+    padding: 3rem 0;
+}
+
+
+.project-text-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalyst{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-top: 4rem;
+    justify-content: space-between;
+
+}
+.project-img-container{
+    display: flex;
+
+}
+.project-img-container img{
+    width:583px;
+    height:482px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+
+
+
+.vertical-center {
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.center {
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+
+
+.row{
+    margin-bottom: 10%;
+}
+
+
+.btn {
+  text-align: center;
+  width: 40%;
+  background-size: 100% auto;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  border-color: black;
+ }
+
+.btn-primary {
+    color: #fff;
+    background-color: black; 
+    width: 124.78px;
+height: 45.73px;
+}
+
+@media only screen and (max-width:1199px){
+    .project-text-container{
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width:920px){
+    .projects-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem 0;
+        padding-bottom: 3rem;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+    }
+
+    .project-text-container{
+        width:100%;
+
+    }
+    .project-img-container{
+        justify-content: center;
+    }
+
+    #reverse-column{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .project-text-container{
+        padding-left:0;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .project-img-container img{
+        width:90%;
+        height:300px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text h5{
+        font-size: 14px;
+    }
+}

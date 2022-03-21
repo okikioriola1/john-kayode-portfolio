@@ -1,0 +1,138 @@
+body{
+    height: 900px;
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    }
+    .navbar-main{
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .bg-light {
+        background-color: #ffffff!important;
+    }
+    
+    
+    .navbar-nav{
+        width:50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+
+.label{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.input-field{
+width: 354.27px;
+height: 48.41px;
+background: #FFFFFF;
+border: 0.733471px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.btn{
+    background-color:black;
+}
+
+.contact-box{
+width: 540px;
+height: 306px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+}
+
+.call{
+    display: flex;
+    width: 100%;
+
+}
+.email-part{
+    display: flex;
+    width:100%;
+}
+
+.icon{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1199px){
+    .contact-container{
+        padding:2rem;
+    }
+    .box-part{
+        padding-left: 2rem;
+    }
+}
+
+
+@media only screen and (max-width:990px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-part{
+        padding-top: 3rem;
+    }
+    .label{
+        text-align:center;
+        padding-bottom:1rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .label{
+        font-size:18px;
+    }
+    .contact-box{
+        width: 400px;
+        padding:1rem;
+    }
+    .email p,
+    .call-text p{
+        font-size:11px;
+    }
+    .icon img{
+        width: 24px;
+        height: 23px;
+    }
+    .input-field{
+        width:250px;
+        height:40px;
+    }
+
+}
+
+@media only screen and (max-width:550px){
+    .contact-box{
+        width: 300px;
+        padding:1rem;
+    }
+
+}

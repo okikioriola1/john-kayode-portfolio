@@ -1,0 +1,297 @@
+body{
+height: 900px;
+background: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+}
+
+.current{
+	color: #f2994a;
+	font-weight: 500;
+}
+.navbar-main{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-nav{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+div>label{
+	color:black;
+	font-weight: 700;
+}
+
+
+.form-control-lg {
+ 	height: calc(1.5em + 1rem + 8px);
+    border-radius: .5rem;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    padding:3rem 4rem;
+}
+.about-left{
+    display: flex;
+    width:50%;
+}
+   
+.about-img-container{
+    width:50%;
+    display: flex;
+}
+
+.center{
+	text-align: center;
+}
+
+.btn {
+  text-align: center;
+  background-size: 100% auto;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  border-color: black;
+ }
+
+
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+.ui{
+
+width: 583px;
+height: 216px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+color: #444444;
+
+}
+
+.nav-group{
+width: 615px;
+height: 29.02px;
+left: 688px;
+top: 43px;
+
+}
+
+.text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+color: #444444;
+}
+
+.about-img{
+width: 90%;
+height: 500px;
+object-fit: cover;
+}
+
+.center {
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+
+.name{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+color: #000000;
+}
+
+.grey {
+background: linear-gradient(
+    to bottom, 
+    transparent 50%,
+    #C4C4C4 50%
+    );
+}
+
+
+.text2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.what{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+color: #000000;
+margin-bottom: 2rem;
+
+}
+
+.tile{
+width: 579px;
+height: 334.27px;
+background: #444444;
+border: 1.19381px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+margin-bottom: 2rem;
+}
+
+.tile-text-title{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28.6515px;
+line-height: 43px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 2rem;
+
+}
+
+.tile-text-title2{
+width: 90%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28.6515px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 1rem;
+
+}
+
+.tile-text{
+width: 520.5px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 600;
+font-size: 21.4887px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+}
+
+
+.also{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+}
+
+.final h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.final{
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width:920px){
+    .about-container{
+        flex-direction: column;
+        padding:2rem 2rem;
+    }
+    .about-left{
+        display: flex;
+        width:100%;
+        justify-content: center;
+    }
+       .about-img{
+           width: 100%;
+       }
+    .about-img-container{
+        width:100%;
+        display: flex;
+        padding-top: 2rem;
+    }
+    .text-group{
+        padding-bottom: 3rem;
+    }
+
+    .tile{
+        width:100%;
+    }
+    .tile-text{
+        width:95%;
+        font-weight: 600;
+    }
+    .tile-text-title2 {
+        width: 100%;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .tile-text{
+        width:95%;
+        
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .tile-text-title2 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 33px;
+        
+    }
+    .what{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .final h3{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .name{
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+    .text{
+        font-size: 30px;
+        line-height: 45px;
+
+    }
+    .text2{
+        font-size: 21px;
+        line-height: 36px;
+
+    }
+}
