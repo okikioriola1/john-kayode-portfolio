@@ -53,9 +53,10 @@ font-family: 'Poppins', sans-serif;
     width:583px;
     height:482px;
     border-radius: 10px;
-    object-fit: cover;
+  
     border: 1px solid #000;
 }
+
 
 
 
@@ -88,13 +89,35 @@ padding: 10px;
   border-radius: 10px;
   background-color: black;
   border-color: black;
+  transition: ease-out 0.5s;
  }
+ .btn:hover{
+    background-color: #000;
+    border-color: #000;
+    transform: translateY(-3px);
+}
 
 .btn-primary {
     color: #fff;
     background-color: black; 
     width: 124.78px;
 height: 45.73px;
+}
+
+@media only screen and (max-width:990px){
+    .navbar-nav{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+    .projects{
+        margin:0;
+    }
+
 }
 
 @media only screen and (max-width:1199px){

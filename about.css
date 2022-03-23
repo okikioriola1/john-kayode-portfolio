@@ -59,6 +59,7 @@ div>label{
   border-radius: 10px;
   background-color: black;
   border-color: black;
+  transition: ease-out 0.5s;
  }
 
 
@@ -95,6 +96,11 @@ font-weight: 700;
 font-size: 48px;
 line-height: 72px;
 color: #444444;
+}
+.btn:hover{
+    background-color: #000;
+    border-color: #000;
+    transform: translateY(-3px);
 }
 
 .about-img{
@@ -218,6 +224,19 @@ color: #000000;
 }
 .final{
     padding-bottom: 2rem;
+}
+
+@media only screen and (max-width:990px){
+    .navbar-nav{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (max-width:920px){
