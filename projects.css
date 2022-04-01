@@ -103,6 +103,9 @@ padding: 10px;
     width: 124.78px;
 height: 45.73px;
 }
+.view-btn{
+    margin-right: 1rem;
+}
 
 @media only screen and (max-width:990px){
     .navbar-nav{
@@ -156,6 +159,9 @@ height: 45.73px;
     .project-text-container{
         padding-left:0;
     }
+    .view-btn{
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width:550px){
@@ -168,5 +174,8 @@ height: 45.73px;
     }
     .text h5{
         font-size: 14px;
+    }
+    .view-btn{
+        margin-bottom: 1rem;
     }
 }
